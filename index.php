@@ -1,81 +1,84 @@
 <?php
-$pageTitle       = 'Matej Bujnák — Data Engineer & ML Engineer';
-$pageDescription = 'Portfólio Mateja Bujnáka – študent AI na FIT ČVUT, Data Engineer a Software Engineer. Špecializácia na ETL pipeline, Machine Learning a Python.';
+$pageTitle       = 'Matej Bujňák — AI Student & Data Engineer';
+$pageDescription = 'Propojuji inženýrský základ z FIT ČVUT s komerční praxí v Data Engineeringu, ETL pipelines a aplikovaném Machine Learningu.';
 require_once 'includes/header.php';
 ?>
 
 <!-- ===== HERO ===== -->
 <main>
-<section class="relative min-h-screen flex flex-col justify-center px-6">
-
-  <!-- Jemný radial glow za textom -->
-  <div class="absolute inset-0 -z-0 overflow-hidden pointer-events-none" aria-hidden="true">
-    <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2
-                w-[600px] h-[600px] rounded-full
-                bg-accent/5 blur-[120px]"></div>
-  </div>
+<section class="relative min-h-screen flex flex-col justify-center px-6 overflow-hidden">
 
   <div class="relative z-10 max-w-5xl mx-auto w-full pt-28 pb-24">
 
-    <!-- Chip / status badge -->
-    <div class="inline-flex items-center gap-2 mb-8
-                px-3 py-1.5 rounded-full border border-white/10
-                bg-white/5 text-xs font-mono text-muted tracking-wide">
-      <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-      Dostupný pre spoluprácu &amp; stáže · 2026
+    <!-- Name + title -->
+    <div class="mb-7">
+      <h1 class="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight leading-[1.05] mb-3">
+        <span class="gradient-text">Matej Bujňák</span>
+      </h1>
+      <p class="text-xl sm:text-2xl font-medium text-slate-400 tracking-tight">
+        AI Student <span class="text-slate-600 mx-1.5">@</span>
+        <span class="text-slate-300">FIT ČVUT</span>
+        <span class="text-slate-600 mx-2">&amp;</span>
+        <span class="text-slate-300">Data Engineer</span>
+      </p>
     </div>
 
-    <!-- Headline -->
-    <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight leading-[1.1] text-slate-50 mb-6">
-      Data Engineering.<br />
-      <span class="text-accent">Pipeline-first</span> myslenie.<br />
-      <span class="text-slate-400 font-light">Od scrapu po model.</span>
-    </h1>
-
-    <!-- Perex -->
-    <p class="max-w-xl text-base sm:text-lg text-muted leading-relaxed mb-10">
-      Volám sa <span class="text-slate-200 font-medium">Matej Bujnák</span> — študent AI na FIT ČVUT a software engineer.
-      Staviam spoľahlivé <span class="text-slate-200 font-medium">ETL pipelines</span>, trénujem
-      <span class="text-slate-200 font-medium">ML modely</span> a transformujem surové dáta
-      na výsledky, ktoré dávajú zmysel.
+    <!-- Main text -->
+    <p class="max-w-xl mb-10 text-[0.97rem] sm:text-base leading-relaxed text-slate-400">
+      Propojuji inženýrský základ z ČVUT s komerční praxí v backendu a cloudu.
+      Zaměřuji se na <span class="text-slate-200 font-medium">Data Engineering</span>,
+      <span class="text-slate-200 font-medium">ETL pipelines</span>
+      a <span class="text-slate-200 font-medium">aplikovaný ML</span> —
+      od sběru surových dat až po nasazení do produkce.
     </p>
 
-    <!-- CTA tlačidlá -->
-    <div class="flex flex-wrap gap-4">
-      <a href="#projects"
-         class="inline-flex items-center gap-2 px-6 py-3 rounded
-                bg-accent hover:bg-accent-hover text-white font-medium text-sm
-                transition-colors duration-150">
-        Pozrieť projekty
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+    <!-- CTA buttons -->
+    <div class="flex flex-wrap gap-3 mb-16">
+      <!-- GitHub -->
+      <a href="https://github.com/matejbujnak" target="_blank" rel="noopener"
+         class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg
+                bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20
+                text-slate-300 hover:text-white font-medium text-sm transition-all duration-150">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
         </svg>
+        GitHub
       </a>
-      <a href="/blog.php"
-         class="inline-flex items-center gap-2 px-6 py-3 rounded
-                border border-white/10 text-slate-300 hover:text-white hover:border-white/25
-                font-medium text-sm transition-colors duration-150">
-        Čítať blog
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/matejbujnak/" target="_blank" rel="noopener"
+         class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg
+                bg-accent/10 hover:bg-accent/20 border border-accent/20 hover:border-accent/40
+                text-accent hover:text-white font-medium text-sm transition-all duration-150">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+        LinkedIn
+      </a>
+      <!-- CV -->
+      <a href="/cv.pdf" target="_blank"
+         class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg
+                border border-white/10 hover:border-white/20
+                text-slate-400 hover:text-slate-200 font-medium text-sm transition-all duration-150">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+        </svg>
+        CV (PDF)
       </a>
     </div>
 
-    <!-- Technický podpis / key stat -->
-    <div class="mt-16 pt-8 border-t border-white/5
-                grid grid-cols-2 sm:grid-cols-3 gap-y-8 gap-x-6 max-w-lg">
+    <!-- Meta cards -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-xl">
 
-      <div>
-        <p class="font-mono text-2xl font-semibold text-slate-100">21 000<span class="text-accent">+</span></p>
-        <p class="text-xs text-muted mt-1 tracking-wide">záznamov v datasete</p>
+      <div class="card-meta rounded-xl p-4">
+        <p class="text-[10px] font-mono uppercase tracking-widest2 text-muted mb-2">Vzdělání &amp; Obor</p>
+        <p class="text-sm font-medium text-slate-200 leading-snug">Umělá inteligence</p>
+        <p class="text-xs text-muted mt-0.5">FIT ČVUT · C++, algoritmy, datové struktury</p>
       </div>
 
-      <div>
-        <p class="font-mono text-2xl font-semibold text-slate-100">R² <span class="text-accent">0.95</span></p>
-        <p class="text-xs text-muted mt-1 tracking-wide">presnosť ML modelu</p>
-      </div>
-
-      <div>
-        <p class="font-mono text-2xl font-semibold text-slate-100">End<span class="text-accent">-to-</span>end</p>
-        <p class="text-xs text-muted mt-1 tracking-wide">scraper → ETL → model</p>
+      <div class="card-meta rounded-xl p-4">
+        <p class="text-[10px] font-mono uppercase tracking-widest2 text-muted mb-2">Komerční praxe</p>
+        <p class="text-sm font-medium text-slate-200 leading-snug">2+ roky samostatně</p>
+        <p class="text-xs text-muted mt-0.5">Python · Node.js · SQL · AWS</p>
       </div>
 
     </div>

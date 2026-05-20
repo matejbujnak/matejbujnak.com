@@ -64,15 +64,29 @@ $pageCanonical   = $pageCanonical   ?? 'https://matejbujnak.com' . ($_SERVER['RE
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
     <style>
-      body { background-color: #0f1117; color: #e2e8f0; }
-      /* Jemný gradient noise na pozadí */
-      body::before {
-        content: '';
-        position: fixed;
-        inset: 0;
-        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
-        pointer-events: none;
-        z-index: 0;
+      body {
+        background-color: #080c14;
+        background-image:
+          radial-gradient(ellipse 80% 50% at 50% -10%, rgba(79,142,247,0.12) 0%, transparent 70%),
+          radial-gradient(ellipse 50% 40% at 80% 60%, rgba(139,92,246,0.07) 0%, transparent 60%);
+        color: #e2e8f0;
+      }
+
+      .gradient-text {
+        background: linear-gradient(135deg, #ffffff 0%, #a5b4fc 50%, #60a5fa 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .card-meta {
+        background: rgba(255,255,255,0.03);
+        border: 1px solid rgba(255,255,255,0.07);
+        transition: border-color 0.2s, background 0.2s;
+      }
+      .card-meta:hover {
+        background: rgba(255,255,255,0.055);
+        border-color: rgba(79,142,247,0.25);
       }
     </style>
 </head>
