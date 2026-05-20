@@ -1,0 +1,19 @@
+# Dependencies
+vendor/
+
+# Environment & secrets
+.env
+.env.local
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Build output (keď prejdeme na Tailwind CLI)
+node_modules/
