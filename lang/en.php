@@ -53,6 +53,35 @@ $t = [
     'proj_btn_github'   => 'View source code on GitHub',
     'proj_btn_blog'     => 'Read the full data analysis on the blog',
 
+    // Experience section
+    'exp_tag'             => 'Work Experience',
+    'exp_title'           => 'Experience & Projects',
+    'exp_subtitle'        => 'Commercial internships on real products and independent open-source development.',
+
+    'exp_datax_company'   => 'DataX Computing',
+    'exp_datax_role'      => 'Software Engineer',
+    'exp_datax_type'      => 'Full-time internship',
+    'exp_datax_period'    => 'May 2024 – September 2024',
+    'exp_datax_li1'       => 'Full design & implementation of Front-End and Back-End (API logic) for a public website and internal management dashboard — LinkTV project',
+    'exp_datax_li2'       => 'Server-side logic in Node.js, MongoDB database work',
+    'exp_datax_li3'       => 'Application infrastructure management on AWS',
+
+    'exp_reactoo_company' => 'Reactoo',
+    'exp_reactoo_role'    => 'Software Engineer',
+    'exp_reactoo_type'    => 'Part-time internship',
+    'exp_reactoo_period'  => 'January 2023 – May 2024',
+    'exp_reactoo_li1'     => 'Development of a real-time video production platform and SPA dashboards for live stream management',
+    'exp_reactoo_li2'     => 'Serverless backend design on AWS and system plugins for Elgato Stream Deck',
+    'exp_reactoo_li3'     => 'Linux, Node.js, AWS cloud services',
+
+    'exp_oss_company'     => 'Independent Dev & Open-source',
+    'exp_oss_role'        => 'Personal Projects',
+    'exp_oss_type'        => 'Ongoing',
+    'exp_oss_period'      => '2023 – Present',
+    'exp_oss_li1'         => 'Car Price Assistant: Chrome extension + FastAPI Python backend — shows price fairness directly inside car listings',
+    'exp_oss_li2'         => 'Chess Dashboard: Full-stack analytics app (Next.js / TypeScript) — visualises game data from Chess.com and Lichess',
+    'exp_oss_li3'         => 'Full project lifecycle: problem analysis → architecture → clean code → published on GitHub',
+
     // Page meta
     'page_title'     => 'Matej Bujňák - Data Engineer & ML Engineer',
     'page_desc'      => 'Combining an engineering foundation from FIT CTU Prague with commercial experience in Data Engineering, ETL pipelines, and applied Machine Learning.',

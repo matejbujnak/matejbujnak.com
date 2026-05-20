@@ -53,6 +53,35 @@ $t = [
     'proj_btn_github'   => 'Prezrieť kód na GitHube',
     'proj_btn_blog'     => 'Prečítať detailnú analýzu na blogu',
 
+    // Experience section
+    'exp_tag'             => 'Komerčná prax',
+    'exp_title'           => 'Skúsenosti & Vývoj',
+    'exp_subtitle'        => 'Komerčné stáže v reálnych projektoch a vlastný open-source vývoj.',
+
+    'exp_datax_company'   => 'DataX Computing',
+    'exp_datax_role'      => 'Software Engineer',
+    'exp_datax_type'      => 'Full-time stáž',
+    'exp_datax_period'    => 'Máj 2024 – September 2024',
+    'exp_datax_li1'       => 'Kompletný dizajn a implementácia Front-Endu aj Back-Endu (API logika) pre verejný web a interný manažérsky dashboard — projekt LinkTV',
+    'exp_datax_li2'       => 'Vývoj serverovej logiky v Node.js, práca s databázou MongoDB',
+    'exp_datax_li3'       => 'Správa aplikačnej infraštruktúry v cloude AWS',
+
+    'exp_reactoo_company' => 'Reactoo',
+    'exp_reactoo_role'    => 'Software Engineer',
+    'exp_reactoo_type'    => 'Part-time stáž',
+    'exp_reactoo_period'  => 'Január 2023 – Máj 2024',
+    'exp_reactoo_li1'     => 'Vývoj platformy pre real-time video produkciu a SPA dashboardov pre manažment live streamov',
+    'exp_reactoo_li2'     => 'Návrh a vývoj serverless backendu na AWS a systémových pluginov pre Elgato Stream Deck',
+    'exp_reactoo_li3'     => 'Linux, Node.js, cloudové služby AWS',
+
+    'exp_oss_company'     => 'Samostatný vývoj & Open-source',
+    'exp_oss_role'        => 'Osobné projekty',
+    'exp_oss_type'        => 'Priebežne',
+    'exp_oss_period'      => '2023 – Súčasnosť',
+    'exp_oss_li1'         => 'Car Price Assistant: Chrome rozšírenie + FastAPI backend v Pythone — zobrazuje férovosť ceny priamo v inzerátoch',
+    'exp_oss_li2'         => 'Chess Dashboard: Full-stack analytická aplikácia (Next.js / TypeScript) — vizualizácia herných dát z Chess.com a Lichess',
+    'exp_oss_li3'         => 'Celý životný cyklus projektu: analýza → architektúra → kód → publikácia na GitHube',
+
     // Page meta
     'page_title'     => 'Matej Bujňák - Data Engineer & ML Engineer',
     'page_desc'      => 'Prepájam inžiniersky základ z FIT ČVUT s komerčnou praxou v Data Engineeringu, ETL pipelines a aplikovanom Machine Learningu.',
