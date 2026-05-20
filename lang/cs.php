@@ -9,8 +9,8 @@ $t = [
 
     // Hero
     'hero_subtitle'  => 'AI Student @ FIT ČVUT & Data Engineer',
-    'hero_text'      => 'Propojuji inženýrský základ z ČVUT s komerční praxí v backendu a cloudu. Zaměřuji se na <strong class="text-slate-200 font-medium">Data Engineering</strong>, <strong class="text-slate-200 font-medium">ETL pipelines</strong> a <strong class="text-slate-200 font-medium">aplikovaný ML</strong> — od sběru surových dat až po nasazení do produkce.',
-    'hero_text_light'=> 'Propojuji inženýrský základ z ČVUT s komerční praxí v backendu a cloudu. Zaměřuji se na Data Engineering, ETL pipelines a aplikovaný ML — od sběru surových dat až po nasazení do produkce.',
+    'hero_text'      => 'Propojuji inženýrský základ z ČVUT s komerční praxí v backendu a cloudu. Zaměřuji se na <strong class="text-slate-200 font-medium">Data Engineering</strong>, <strong class="text-slate-200 font-medium">ETL pipelines</strong> a <strong class="text-slate-200 font-medium">aplikovaný ML</strong> - od sběru surových dat až po nasazení do produkce.',
+    'hero_text_light'=> 'Propojuji inženýrský základ z ČVUT s komerční praxí v backendu a cloudu. Zaměřuji se na Data Engineering, ETL pipelines a aplikovaný ML - od sběru surových dat až po nasazení do produkce.',
     'hero_btn_projects' => 'Moje projekty',
     'hero_github'    => 'GitHub',
     'hero_linkedin'  => 'LinkedIn',
@@ -25,8 +25,36 @@ $t = [
     'meta_exp_title' => '2+ roky samostatně',
     'meta_exp_sub'   => 'Python · Node.js · SQL · AWS',
 
+    // Projects section
+    'proj_tag'          => '🏎️ Vlajkový projekt',
+    'proj_title'        => 'End-to-End Car Price Predictor',
+    'proj_subtitle'     => 'Kompletní datová a ML pipeline: Od surového webu po produkční predikční model.',
+    'proj_prob_title'   => 'Problém & Cíl',
+    'proj_problem'      => '<strong class="text-gray-800">Problém:</strong> Jak analyzovat český trh s ojetými vozy, detekovat podhodnocené nabídky a přesně predikovat cenu auta bez přístupu k oficiálnímu API velkých autoportálů?',
+    'proj_goal'         => '<strong class="text-gray-800">Cíl:</strong> Postavit robustní, plně automatizovaný systém, který dokáže legálně a efektivně scrapovat dynamické weby, čistit surová data, ukládat je do strukturované databáze a nad nimi vytrénovat přesný model strojového učení.',
+    'proj_a_title'      => 'Data Sourcing & Scraping',
+    'proj_a_phase'      => 'Extract',
+    'proj_a_li1'        => 'Asynchronní Python scraper s paralelním stahováním',
+    'proj_a_li2'        => 'Rotace User-Agentů, smart throttling',
+    'proj_a_li3'        => 'Parsování HTML + skrytých JSON schémat',
+    'proj_a_stat'       => 'inzerátů bez banu',
+    'proj_b_title'      => 'ETL Pipeline & Čištění dat',
+    'proj_b_phase'      => 'Transform · Load',
+    'proj_b_li1'        => 'Pandas/NumPy pipeline - duplicity, chybějící hodnoty, anomálie',
+    'proj_b_li2'        => 'Parsování textů na numerické hodnoty',
+    'proj_b_li3'        => 'Feature engineering: výbava, lokalita, karoserie',
+    'proj_b_stat'       => 'Strukturovaná DB připravená pro model',
+    'proj_c_title'      => 'Modelování & Machine Learning',
+    'proj_c_phase'      => 'Model',
+    'proj_c_li1'        => 'EDA + regresní modely (Scikit-learn / XGBoost)',
+    'proj_c_li2'        => 'Optimalizace hyperparametrů',
+    'proj_c_li3'        => 'Detekce podhodnocených nabídek',
+    'proj_stack_label'  => 'Stack:',
+    'proj_btn_github'   => 'Prohlédnout kód na GitHubu',
+    'proj_btn_blog'     => 'Přečíst detailní analýzu na blogu',
+
     // Page meta
-    'page_title'     => 'Matej Bujňák — Data Engineer & ML Engineer',
+    'page_title'     => 'Matej Bujňák - Data Engineer & ML Engineer',
     'page_desc'      => 'Propojuji inženýrský základ z FIT ČVUT s komerční praxí v Data Engineeringu, ETL pipelines a aplikovaném Machine Learningu.',
     'html_lang'      => 'cs',
 ];
