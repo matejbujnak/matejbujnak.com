@@ -13,6 +13,7 @@ $t = [
     'hero_github'    => 'GitHub',
     'hero_linkedin'  => 'LinkedIn',
     'hero_cv'        => 'CV (PDF)',
+    'cv_file'        => '/cv/cv_matejbujnak.pdf',
 
     // Meta cards
     'meta_edu_label' => 'Education & Field',
