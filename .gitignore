@@ -15,5 +15,8 @@ Thumbs.db
 .idea/
 *.swp
 
+# Claude Code
+.claude/
+
 # Build output (keď prejdeme na Tailwind CLI)
 node_modules/
