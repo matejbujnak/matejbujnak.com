@@ -10,6 +10,8 @@ $t = [
     // Hero
     'hero_subtitle'  => 'AI Študent @ FIT ČVUT & Data Engineer',
     'hero_text'      => 'Prepájam inžiniersky základ z ČVUT s komerčnou praxou v backende a cloude. Zameriavam sa na <strong class="text-slate-200 font-medium">Data Engineering</strong>, <strong class="text-slate-200 font-medium">ETL pipelines</strong> a <strong class="text-slate-200 font-medium">aplikovaný ML</strong> — od zberu surových dát až po nasadenie do produkcie.',
+    'hero_text_light'=> 'Prepájam inžiniersky základ z ČVUT s komerčnou praxou v backende a cloude. Zameriavam sa na Data Engineering, ETL pipelines a aplikovaný ML — od zberu surových dát až po nasadenie do produkcie.',
+    'hero_btn_projects' => 'Moje projekty',
     'hero_github'    => 'GitHub',
     'hero_linkedin'  => 'LinkedIn',
     'hero_cv'        => 'CV (PDF)',

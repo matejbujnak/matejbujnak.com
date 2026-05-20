@@ -1,0 +1,82 @@
+<svg viewBox="0 0 480 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Laptop base -->
+  <rect x="60" y="60" width="320" height="210" rx="14" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+  <rect x="72" y="72" width="296" height="186" rx="8" fill="rgba(255,255,255,0.08)"/>
+
+  <!-- Screen content: grid lines -->
+  <line x1="72" y1="110" x2="368" y2="110" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <line x1="72" y1="140" x2="368" y2="140" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <line x1="72" y1="170" x2="368" y2="170" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <line x1="72" y1="200" x2="368" y2="200" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <line x1="130" y1="72" x2="130" y2="258" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="190" y1="72" x2="190" y2="258" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="250" y1="72" x2="250" y2="258" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="310" y1="72" x2="310" y2="258" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <!-- Bar chart bars -->
+  <rect x="100" y="185" width="28" height="55" rx="4" fill="rgba(255,255,255,0.55)"/>
+  <rect x="145" y="160" width="28" height="80" rx="4" fill="rgba(255,255,255,0.70)"/>
+  <rect x="190" y="140" width="28" height="100" rx="4" fill="rgba(255,255,255,0.55)"/>
+  <rect x="235" y="120" width="28" height="120" rx="4" fill="rgba(255,255,255,0.80)"/>
+  <rect x="280" y="145" width="28" height="95" rx="4" fill="rgba(255,255,255,0.65)"/>
+  <rect x="325" y="105" width="28" height="135" rx="4" fill="rgba(255,255,255,0.90)"/>
+
+  <!-- Line chart overlay -->
+  <polyline
+    points="114,202 159,178 204,158 249,135 294,162 339,120"
+    fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Data points on line -->
+  <circle cx="114" cy="202" r="4.5" fill="white"/>
+  <circle cx="159" cy="178" r="4.5" fill="white"/>
+  <circle cx="204" cy="158" r="4.5" fill="white"/>
+  <circle cx="249" cy="135" r="4.5" fill="white"/>
+  <circle cx="294" cy="162" r="4.5" fill="white"/>
+  <circle cx="339" cy="120" r="4.5" fill="white"/>
+
+  <!-- R² badge -->
+  <rect x="280" y="74" width="80" height="26" rx="6" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <text x="320" y="91" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" font-weight="600" fill="white">R² = 0.95</text>
+
+  <!-- Laptop keyboard base -->
+  <rect x="30" y="272" width="380" height="18" rx="6" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+  <rect x="170" y="270" width="100" height="6" rx="3" fill="rgba(255,255,255,0.25)"/>
+
+  <!-- Floating nodes - pipeline -->
+  <!-- Node 1: Database -->
+  <circle cx="50" cy="170" r="28" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.45)" stroke-width="1.5"/>
+  <ellipse cx="50" cy="160" rx="14" ry="5" stroke="rgba(255,255,255,0.8)" stroke-width="1.5" fill="none"/>
+  <line x1="36" y1="160" x2="36" y2="178" stroke="rgba(255,255,255,0.8)" stroke-width="1.5"/>
+  <line x1="64" y1="160" x2="64" y2="178" stroke="rgba(255,255,255,0.8)" stroke-width="1.5"/>
+  <ellipse cx="50" cy="178" rx="14" ry="5" stroke="rgba(255,255,255,0.8)" stroke-width="1.5" fill="none"/>
+
+  <!-- Arrow from Node1 to laptop -->
+  <line x1="78" y1="170" x2="55" y2="170" stroke="rgba(255,255,255,0.5)" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- Node 2: Python/ETL -->
+  <circle cx="430" cy="140" r="28" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.45)" stroke-width="1.5"/>
+  <text x="430" y="136" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="rgba(255,255,255,0.9)" font-weight="600">ETL</text>
+  <line x1="418" y1="143" x2="442" y2="143" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/>
+  <line x1="418" y1="150" x2="436" y2="150" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+
+  <!-- Arrow from laptop to Node2 -->
+  <line x1="402" y1="140" x2="375" y2="140" stroke="rgba(255,255,255,0.5)" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- Node 3: ML model bottom -->
+  <circle cx="240" cy="360" r="28" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.45)" stroke-width="1.5"/>
+  <text x="240" y="356" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="8.5" fill="rgba(255,255,255,0.9)" font-weight="600">ML</text>
+  <text x="240" y="368" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="8.5" fill="rgba(255,255,255,0.7)">model</text>
+
+  <!-- Arrow from laptop to Node3 -->
+  <line x1="240" y1="290" x2="240" y2="332" stroke="rgba(255,255,255,0.5)" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- Floating small dots (data particles) -->
+  <circle cx="410" cy="250" r="4" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="430" cy="310" r="3" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="55"  cy="320" r="5" fill="rgba(255,255,255,0.35)"/>
+  <circle cx="35"  cy="260" r="3" fill="rgba(255,255,255,0.25)"/>
+  <circle cx="390" cy="60"  r="4" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="90"  cy="40"  r="3" fill="rgba(255,255,255,0.25)"/>
+
+</svg>
