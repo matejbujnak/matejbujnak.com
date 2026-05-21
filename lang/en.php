@@ -25,6 +25,16 @@ $t = [
     'meta_exp_title' => '2+ years independently',
     'meta_exp_sub'   => 'Python · Node.js · SQL · AWS',
 
+    // About section
+    'about_tag'     => 'About me',
+    'about_title'   => 'Who I am',
+    'about_p1'      => 'I\'m a 21-year-old Artificial Intelligence student at FIT CTU Prague. Alongside my studies, I have 2+ years of commercial experience as a Software Engineer — working on real-time platforms, AWS cloud infrastructure, and internal dashboards.',
+    'about_p2'      => 'I\'m currently transitioning into Data Engineering and applied Machine Learning. I enjoy building things from scratch — from data collection through ETL pipelines to deploying models in production. I work independently, learn fast, and ship.',
+    'about_li1'     => '21 years old, Prague / Bratislava',
+    'about_li2'     => 'BSc. AI — FIT CTU Prague',
+    'about_li3'     => '2+ years commercial experience',
+    'about_li4'     => 'Open to internships from June 2026',
+
     // Projects section
     'proj_tag'          => '🏎️ Flagship Project',
     'proj_title'        => 'End-to-End Car Price Predictor',

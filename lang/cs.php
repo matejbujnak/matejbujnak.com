@@ -25,6 +25,16 @@ $t = [
     'meta_exp_title' => '2+ roky samostatně',
     'meta_exp_sub'   => 'Python · Node.js · SQL · AWS',
 
+    // About section
+    'about_tag'     => 'O mně',
+    'about_title'   => 'Kdo jsem',
+    'about_p1'      => 'Jsem 21letý student oboru Umělá inteligence na FIT ČVUT v Praze. Vedle školy mám za sebou 2+ roky komerční praxe jako Software Engineer — pracoval jsem na real-time platformách, cloudové infrastruktuře v AWS a interních dashboardech.',
+    'about_p2'      => 'Aktuálně se přeorientuji na Data Engineering a aplikovaný Machine Learning. Baví mě stavět věci od základů — od sběru dat přes ETL pipeline až po nasazení modelu do produkce. Pracuji samostatně, rád se učím a dovedu věci dotáhnout do konce.',
+    'about_li1'     => '21 let, Praha / Bratislava',
+    'about_li2'     => 'Bc. studium AI — FIT ČVUT',
+    'about_li3'     => '2+ roky komerční praxe',
+    'about_li4'     => 'Otevřený stážím od června 2026',
+
     // Projects section
     'proj_tag'          => '🏎️ Vlajkový projekt',
     'proj_title'        => 'End-to-End Car Price Predictor',
