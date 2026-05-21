@@ -30,20 +30,7 @@ $langMeta = [
     <meta name="twitter:title"       content="<?= htmlspecialchars($pageTitle) ?>" />
     <meta name="twitter:description" content="<?= htmlspecialchars($pageDescription) ?>" />
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Inter', 'system-ui', 'sans-serif'],
-              mono: ['JetBrains Mono', 'monospace'],
-            },
-            letterSpacing: { widest2: '0.15em' },
-          },
-        },
-      }
-    </script>
+    <link rel="stylesheet" href="/css/app.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
