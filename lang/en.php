@@ -137,6 +137,11 @@ $t = [
     'contact_btn_li'   => 'My LinkedIn',
     'contact_btn_gh'   => 'My GitHub',
 
+    // Blog
+    'blog_title'    => 'Blog',
+    'blog_subtitle' => 'Articles about data engineering, machine learning, and software development.',
+    'blog_empty'    => 'No articles yet. Check back soon!',
+
     // Page meta
     'page_title'     => 'Matej Bujňák - Data Engineer & ML Engineer',
     'page_desc'      => 'Combining an engineering foundation from FIT CTU Prague with commercial experience in Data Engineering, ETL pipelines, and applied Machine Learning.',

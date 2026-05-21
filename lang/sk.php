@@ -137,6 +137,11 @@ $t = [
     'contact_btn_li'   => 'Môj LinkedIn',
     'contact_btn_gh'   => 'Môj GitHub',
 
+    // Blog
+    'blog_title'    => 'Blog',
+    'blog_subtitle' => 'Články o data engineeringu, strojovom učení a vývoji softvéru.',
+    'blog_empty'    => 'Zatiaľ žiadne články. Čoskoro niečo pribudne!',
+
     // Page meta
     'page_title'     => 'Matej Bujňák - Data Engineer & ML Engineer',
     'page_desc'      => 'Prepájam inžiniersky základ z FIT ČVUT s komerčnou praxou v Data Engineeringu, ETL pipelines a aplikovanom Machine Learningu.',
