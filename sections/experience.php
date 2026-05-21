@@ -14,16 +14,12 @@
       </p>
     </div>
 
-    <!-- Timeline -->
-    <div class="relative">
-
-      <!-- Vertical line -->
-      <div class="hidden md:block absolute left-[calc(50%-1px)] top-0 bottom-0 w-0.5 bg-blue-100"></div>
+    <!-- Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
       <?php
       $entries = [
         [
-          'side'    => 'left',
           'icon'    => '🏢',
           'company' => $t['exp_datax_company'],
           'role'    => $t['exp_datax_role'],
@@ -34,7 +30,6 @@
           'accent'  => false,
         ],
         [
-          'side'    => 'right',
           'icon'    => '🏢',
           'company' => $t['exp_reactoo_company'],
           'role'    => $t['exp_reactoo_role'],
@@ -45,7 +40,6 @@
           'accent'  => false,
         ],
         [
-          'side'    => 'left',
           'icon'    => '🧪',
           'company' => $t['exp_oss_company'],
           'role'    => $t['exp_oss_role'],
@@ -58,60 +52,49 @@
       ];
 
       foreach ($entries as $e):
-        $isLeft = $e['side'] === 'left';
       ?>
-      <div class="relative flex flex-col md:flex-row items-start md:items-center gap-6 mb-12">
+        <div class="rounded-2xl p-6 bg-white border flex flex-col transition-all duration-300
+                    <?= $e['accent'] ? 'border-blue-200 shadow-md shadow-blue-50' : 'border-gray-100 hover:border-blue-200 hover:shadow-lg' ?>">
 
-        <!-- Dot on timeline -->
-        <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full border-2 border-blue-400 bg-white z-10"></div>
-
-        <!-- Card -->
-        <div class="w-full md:w-[calc(50%-2rem)] <?= $isLeft ? 'md:pr-8' : 'md:order-last md:pl-8' ?>">
-          <div class="rounded-2xl p-6 bg-white border transition-all duration-300
-                      <?= $e['accent'] ? 'border-blue-200 shadow-md shadow-blue-50' : 'border-gray-100 hover:border-blue-200 hover:shadow-lg' ?>">
-
-            <div class="flex items-start justify-between gap-3 mb-4">
-              <div>
-                <div class="flex items-center gap-2 mb-1">
-                  <span><?= $e['icon'] ?></span>
-                  <span class="font-bold text-gray-900"><?= htmlspecialchars($e['company']) ?></span>
-                </div>
-                <p class="text-sm font-semibold text-blue-600"><?= htmlspecialchars($e['role']) ?></p>
+          <!-- Top -->
+          <div class="flex items-start justify-between gap-2 mb-4">
+            <div>
+              <div class="flex items-center gap-2 mb-1">
+                <span><?= $e['icon'] ?></span>
+                <span class="font-bold text-gray-900 text-sm"><?= htmlspecialchars($e['company']) ?></span>
               </div>
-              <div class="text-right shrink-0">
-                <span class="inline-block text-xs font-mono px-2 py-1 rounded-full mb-1
-                             <?= $e['accent'] ? 'bg-blue-50 text-blue-600' : 'bg-gray-100 text-gray-500' ?>">
-                  <?= htmlspecialchars($e['type']) ?>
-                </span>
-                <p class="text-xs text-gray-400"><?= htmlspecialchars($e['period']) ?></p>
-              </div>
+              <p class="text-sm font-semibold text-blue-600"><?= htmlspecialchars($e['role']) ?></p>
             </div>
-
-            <ul class="text-sm text-gray-600 space-y-2 mb-4">
-              <?php foreach ($e['items'] as $item): ?>
-                <li class="flex gap-2">
-                  <span class="text-blue-400 mt-0.5 shrink-0">▸</span>
-                  <?= htmlspecialchars($item) ?>
-                </li>
-              <?php endforeach; ?>
-            </ul>
-
-            <div class="flex flex-wrap gap-2">
-              <?php foreach ($e['stack'] as $tech): ?>
-                <span class="px-2.5 py-0.5 rounded-full text-xs font-mono text-blue-700"
-                      style="background: #eff6ff; border: 1px solid #bfdbfe;">
-                  <?= htmlspecialchars($tech) ?>
-                </span>
-              <?php endforeach; ?>
-            </div>
-
+            <span class="text-xs font-mono px-2 py-1 rounded-full shrink-0
+                         <?= $e['accent'] ? 'bg-blue-50 text-blue-600' : 'bg-gray-100 text-gray-500' ?>">
+              <?= htmlspecialchars($e['type']) ?>
+            </span>
           </div>
+
+          <!-- Period -->
+          <p class="text-xs text-gray-400 font-mono mb-4"><?= htmlspecialchars($e['period']) ?></p>
+
+          <!-- Bullet points -->
+          <ul class="text-sm text-gray-600 space-y-2 mb-5 flex-1">
+            <?php foreach ($e['items'] as $item): ?>
+              <li class="flex gap-2">
+                <span class="text-blue-400 mt-0.5 shrink-0">▸</span>
+                <?= htmlspecialchars($item) ?>
+              </li>
+            <?php endforeach; ?>
+          </ul>
+
+          <!-- Stack chips -->
+          <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100">
+            <?php foreach ($e['stack'] as $tech): ?>
+              <span class="px-2.5 py-0.5 rounded-full text-xs font-mono text-blue-700"
+                    style="background: #eff6ff; border: 1px solid #bfdbfe;">
+                <?= htmlspecialchars($tech) ?>
+              </span>
+            <?php endforeach; ?>
+          </div>
+
         </div>
-
-        <!-- Spacer -->
-        <div class="hidden md:block w-[calc(50%-2rem)] <?= $isLeft ? '' : 'md:order-first' ?>"></div>
-
-      </div>
       <?php endforeach; ?>
 
     </div>
