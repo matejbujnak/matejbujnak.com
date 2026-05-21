@@ -1,5 +1,6 @@
 <?php
 require_once 'includes/blog.php';
+$navbarSolid = true;
 require_once 'includes/header.php';
 
 $posts = get_posts($lang);

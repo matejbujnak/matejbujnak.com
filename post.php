@@ -23,6 +23,7 @@ $content = markdown_to_html($parsed['body']);
 
 $pageTitle       = ($meta['title'] ?? 'Post') . ' - Matej Bujňák';
 $pageDescription = $meta['description'] ?? '';
+$navbarSolid     = true;
 
 require_once 'includes/header.php';
 ?>

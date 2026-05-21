@@ -162,7 +162,7 @@ $langMeta = [
 </script>
 
 <!-- ===== NAVBAR ===== -->
-<header id="navbar" class="fixed top-0 inset-x-0 z-50 py-4">
+<header id="navbar" class="fixed top-0 inset-x-0 z-50 py-4<?= !empty($navbarSolid) ? ' scrolled' : '' ?>">
   <div class="max-w-6xl mx-auto px-6 flex items-center justify-between">
 
     <a href="/" class="nav-brand font-bold text-lg">Matej Bujňák</a>
@@ -248,7 +248,9 @@ $langMeta = [
 
 <script>
   var navbar = document.getElementById('navbar');
+  var navbarAlwaysSolid = <?= !empty($navbarSolid) ? 'true' : 'false' ?>;
   window.addEventListener('scroll', function() {
+    if (navbarAlwaysSolid) return;
     navbar.classList.toggle('scrolled', window.scrollY > 40);
   }, { passive: true });
 
