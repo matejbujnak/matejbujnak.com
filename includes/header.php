@@ -121,6 +121,21 @@ $langMeta = [
       .social-icon { transition: transform 0.3s ease; display: inline-flex; }
       .social-icon:hover { transform: translateY(-5px); }
 
+      /* ---- Mobile: always solid navbar ---- */
+      @media (max-width: 767px) {
+        #navbar {
+          background: rgba(255,255,255,0.98) !important;
+          box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        #navbar .nav-brand { color: #212529 !important; }
+        #navbar .nav-hamburger { color: #212529 !important; }
+      }
+
+      /* ---- Mobile menu links ---- */
+      .mobile-nav-link { color: #212529; font-size: 0.95rem; font-weight: 500; transition: color 0.2s; }
+      .mobile-nav-link:hover { color: #0d6efd; }
+      #mobile-menu { border-top: 1px solid #e5e7eb; }
+
       /* ---- Sections ---- */
       section { padding: 100px 0; }
       @media (max-width: 768px) {
@@ -156,9 +171,11 @@ $langMeta = [
       <nav class="flex items-center gap-7 text-sm">
         <a href="/#projects"   class="nav-link"><?= $t['nav_projects'] ?></a>
         <a href="/#experience" class="nav-link"><?= $t['nav_experience'] ?></a>
+        <a href="/#education"  class="nav-link"><?= $t['nav_education'] ?></a>
+        <a href="/#about"      class="nav-link"><?= $t['nav_about'] ?></a>
         <a href="/#stack"      class="nav-link"><?= $t['nav_stack'] ?></a>
         <a href="/blog.php"    class="nav-link"><?= $t['nav_blog'] ?></a>
-        <a href="mailto:matej@matejbujnak.com"
+        <a href="mailto:bujnak.matko@gmail.com"
            class="nav-contact-btn px-4 py-1.5 rounded border-2 border-white/60 text-white text-sm font-medium hover:bg-white hover:text-blue-600 transition-all">
           <?= $t['nav_contact'] ?>
         </a>
@@ -195,12 +212,37 @@ $langMeta = [
       </div>
     </div>
 
-    <button class="md:hidden text-white" aria-label="Menu">
+    <button id="mobile-menu-btn" class="md:hidden nav-hamburger" aria-label="Menu">
       <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
       </svg>
     </button>
 
+  </div>
+
+  <!-- Mobile menu -->
+  <div id="mobile-menu" class="md:hidden hidden px-6 pb-4 pt-2">
+    <nav class="flex flex-col gap-1">
+      <a href="/#projects"   class="mobile-nav-link py-2.5 border-b border-gray-100"><?= $t['nav_projects'] ?></a>
+      <a href="/#experience" class="mobile-nav-link py-2.5 border-b border-gray-100"><?= $t['nav_experience'] ?></a>
+      <a href="/#education"  class="mobile-nav-link py-2.5 border-b border-gray-100"><?= $t['nav_education'] ?></a>
+      <a href="/#about"      class="mobile-nav-link py-2.5 border-b border-gray-100"><?= $t['nav_about'] ?></a>
+      <a href="/#stack"      class="mobile-nav-link py-2.5 border-b border-gray-100"><?= $t['nav_stack'] ?></a>
+      <a href="/blog.php"    class="mobile-nav-link py-2.5 border-b border-gray-100"><?= $t['nav_blog'] ?></a>
+      <a href="mailto:bujnak.matko@gmail.com" class="mobile-nav-link py-2.5 border-b border-gray-100"><?= $t['nav_contact'] ?></a>
+    </nav>
+    <!-- Language selector -->
+    <?php $currentPath = strtok($_SERVER['REQUEST_URI'] ?? '/', '?'); ?>
+    <div class="flex items-center gap-2 pt-3">
+      <?php foreach ($langMeta as $code => $meta): ?>
+        <a href="<?= htmlspecialchars($currentPath) ?>?lang=<?= $code ?>"
+           class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-mono transition-colors
+                  <?= $code === $lang ? 'bg-blue-50 text-blue-600 font-medium' : 'text-gray-500 hover:text-gray-800 hover:bg-gray-50' ?>">
+          <span><?= $meta['flag'] ?></span>
+          <span><?= $meta['label'] ?></span>
+        </a>
+      <?php endforeach; ?>
+    </div>
   </div>
 </header>
 
@@ -209,4 +251,17 @@ $langMeta = [
   window.addEventListener('scroll', function() {
     navbar.classList.toggle('scrolled', window.scrollY > 40);
   }, { passive: true });
+
+  // Mobile menu toggle
+  var mobileBtn  = document.getElementById('mobile-menu-btn');
+  var mobileMenu = document.getElementById('mobile-menu');
+  mobileBtn.addEventListener('click', function() {
+    mobileMenu.classList.toggle('hidden');
+  });
+  // Close on link click
+  mobileMenu.querySelectorAll('a').forEach(function(link) {
+    link.addEventListener('click', function() {
+      mobileMenu.classList.add('hidden');
+    });
+  });
 </script>

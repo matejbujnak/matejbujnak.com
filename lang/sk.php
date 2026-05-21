@@ -3,6 +3,8 @@ $t = [
     // Nav
     'nav_projects'   => 'Projekty',
     'nav_experience' => 'Prax',
+    'nav_education'  => 'Vzdelanie',
+    'nav_about'      => 'O mne',
     'nav_stack'      => 'Stack',
     'nav_blog'       => 'Blog',
     'nav_contact'    => 'Kontakt',
