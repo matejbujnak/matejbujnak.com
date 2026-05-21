@@ -82,6 +82,30 @@ $t = [
     'exp_oss_li2'         => 'Chess Dashboard: Full-stack analytická aplikácia (Next.js / TypeScript) — vizualizácia herných dát z Chess.com a Lichess',
     'exp_oss_li3'         => 'Celý životný cyklus projektu: analýza → architektúra → kód → publikácia na GitHube',
 
+    // Stack section
+    'stack_tag'        => 'Technologický stack',
+    'stack_title'      => 'Čo používam',
+    'stack_subtitle'   => 'Technológie rozdelené podľa toho, ako nad nimi inžinierskymi premýšľam.',
+    'stack_cat1'       => 'Core & Algoritmy',
+    'stack_cat2'       => 'Dáta & Machine Learning',
+    'stack_cat3'       => 'Backend & Cloud',
+    'stack_cat4'       => 'Frontend & Nástroje',
+
+    // Contact section
+    'contact_tag'      => 'Contact.init()',
+    'contact_title'    => 'Aktuálna dostupnosť & Kontakt',
+    'contact_avail1_title'  => 'Jún – September 2026',
+    'contact_avail1_badge'  => 'Full-time · 40 hod/týždeň',
+    'contact_avail1_text'   => 'Ideálne pre intenzívny onboarding, pokrytie letných dovoleniek alebo rýchle nastúpenie do rozbiehajúceho sa projektu.',
+    'contact_avail2_title'  => 'Od októbra 2026',
+    'contact_avail2_badge'  => 'Part-time · 120+ hod/mes',
+    'contact_avail2_text'   => 'Flexibilný rozvrh plne prispôsobený práci popri zimnom semestri.',
+    'contact_pitch'    => 'Hľadáte pre svojich klientov alebo interné tímy v Prahe niekoho, kto len slepo nepíše kód, ale rozumie dátam a vie veci dotiahnuť do konca? Napíšte mi. Veľmi rád vám na krátkom 10-minútovom calle zdieľam obrazovku a ukážem architektúru svojich projektov naživo.',
+    'contact_email'    => 'bujnak.matko@gmail.com',
+    'contact_phone'    => '+421 940 744 033',
+    'contact_btn_li'   => 'Môj LinkedIn',
+    'contact_btn_gh'   => 'Môj GitHub',
+
     // Page meta
     'page_title'     => 'Matej Bujňák - Data Engineer & ML Engineer',
     'page_desc'      => 'Prepájam inžiniersky základ z FIT ČVUT s komerčnou praxou v Data Engineeringu, ETL pipelines a aplikovanom Machine Learningu.',

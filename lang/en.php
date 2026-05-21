@@ -82,6 +82,30 @@ $t = [
     'exp_oss_li2'         => 'Chess Dashboard: Full-stack analytics app (Next.js / TypeScript) — visualises game data from Chess.com and Lichess',
     'exp_oss_li3'         => 'Full project lifecycle: problem analysis → architecture → clean code → published on GitHub',
 
+    // Stack section
+    'stack_tag'        => 'Tech stack',
+    'stack_title'      => 'What I work with',
+    'stack_subtitle'   => 'Technologies grouped by how I think about them as an engineer.',
+    'stack_cat1'       => 'Core & Algorithms',
+    'stack_cat2'       => 'Data & Machine Learning',
+    'stack_cat3'       => 'Backend & Cloud',
+    'stack_cat4'       => 'Frontend & Tools',
+
+    // Contact section
+    'contact_tag'      => 'Contact.init()',
+    'contact_title'    => 'Availability & Contact',
+    'contact_avail1_title'  => 'June – September 2026',
+    'contact_avail1_badge'  => 'Full-time · 40 hrs/week',
+    'contact_avail1_text'   => 'Ideal for intensive onboarding, covering summer holidays in your team, or jumping into an ongoing project.',
+    'contact_avail2_title'  => 'From October 2026',
+    'contact_avail2_badge'  => 'Part-time · 120+ hrs/month',
+    'contact_avail2_text'   => 'Fully flexible schedule adapted to working alongside the winter semester.',
+    'contact_pitch'    => 'Looking for someone in Prague who doesn\'t just write code blindly, but understands data and knows how to ship things? Write to me. I\'d be happy to share my screen on a quick 10-minute call and walk you through my project architecture live.',
+    'contact_email'    => 'bujnak.matko@gmail.com',
+    'contact_phone'    => '+421 940 744 033',
+    'contact_btn_li'   => 'My LinkedIn',
+    'contact_btn_gh'   => 'My GitHub',
+
     // Page meta
     'page_title'     => 'Matej Bujňák - Data Engineer & ML Engineer',
     'page_desc'      => 'Combining an engineering foundation from FIT CTU Prague with commercial experience in Data Engineering, ETL pipelines, and applied Machine Learning.',
