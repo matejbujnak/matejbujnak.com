@@ -25,6 +25,25 @@ $t = [
     'meta_exp_title' => '2+ years independently',
     'meta_exp_sub'   => 'Python · Node.js · SQL · AWS',
 
+    // Education section
+    'edu_tag'         => 'Education',
+    'edu_title'       => 'Studies',
+    'edu_school'      => 'Czech Technical University in Prague',
+    'edu_faculty'     => 'Faculty of Information Technology (FIT)',
+    'edu_degree'      => 'BSc. - Artificial Intelligence',
+    'edu_period'      => '2024 - present',
+    'edu_li1'         => 'Algorithms & graph theory',
+    'edu_li2'         => 'Programming & OOP',
+    'edu_li3'         => 'Operating systems',
+    'edu_li4'         => 'Linux',
+    'edu_li5'         => 'Database systems & SQL',
+    'edu_li6'         => 'Big Data & NoSQL',
+    'edu_li7'         => 'Machine learning & neural networks',
+    'edu_li8'         => 'Data visualization',
+    'edu_li9'         => 'DevOps & CI/CD',
+    'edu_li10'        => 'Cryptography & security',
+    'edu_note'        => 'FIT CTU is consistently ranked as the top IT faculty in the Czech Republic.',
+
     // About section
     'about_tag'     => 'About me',
     'about_title'   => 'Who I am',

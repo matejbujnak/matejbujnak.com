@@ -25,6 +25,25 @@ $t = [
     'meta_exp_title' => '2+ roky samostatně',
     'meta_exp_sub'   => 'Python · Node.js · SQL · AWS',
 
+    // Education section
+    'edu_tag'         => 'Vzdělání',
+    'edu_title'       => 'Studium',
+    'edu_school'      => 'České vysoké učení technické v Praze',
+    'edu_faculty'     => 'Fakulta informačních technologií (FIT)',
+    'edu_degree'      => 'Bc. — Umělá inteligence',
+    'edu_period'      => '2024 – současnost',
+    'edu_li1'         => 'Algoritmy & teorie grafů',
+    'edu_li2'         => 'Programování & OOP',
+    'edu_li3'         => 'Operační systémy',
+    'edu_li4'         => 'Linux',
+    'edu_li5'         => 'Databázové systémy & SQL',
+    'edu_li6'         => 'Big Data & NoSQL',
+    'edu_li7'         => 'Strojové učení & neuronové sítě',
+    'edu_li8'         => 'Vizualizace dat',
+    'edu_li9'         => 'DevOps & CI/CD',
+    'edu_li10'        => 'Kryptografie & bezpečnost',
+    'edu_note'        => 'FIT ČVUT je konzistentně hodnocena jako nejlepší technická fakulta IT v České republice.',
+
     // About section
     'about_tag'     => 'O mně',
     'about_title'   => 'Kdo jsem',
