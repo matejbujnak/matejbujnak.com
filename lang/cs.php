@@ -32,7 +32,7 @@ $t = [
     'edu_title'       => 'Studium',
     'edu_school'      => 'České vysoké učení technické v Praze',
     'edu_faculty'     => 'Fakulta informačních technologií (FIT)',
-    'edu_degree'      => 'Bc. — Umělá inteligence',
+    'edu_degree'      => 'Bc. - Umělá inteligence',
     'edu_period'      => '2024 – současnost',
     'edu_li1'         => 'Algoritmy & teorie grafů',
     'edu_li2'         => 'Programování & OOP',
@@ -49,10 +49,10 @@ $t = [
     // About section
     'about_tag'     => 'O mně',
     'about_title'   => 'Kdo jsem',
-    'about_p1'      => 'Jsem 21letý student oboru Umělá inteligence na FIT ČVUT v Praze. Vedle školy mám za sebou 2+ roky komerční praxe jako Software Engineer — pracoval jsem na real-time platformách, cloudové infrastruktuře v AWS a interních dashboardech.',
-    'about_p2'      => 'Aktuálně se přeorientuji na Data Engineering a aplikovaný Machine Learning. Baví mě stavět věci od základů — od sběru dat přes ETL pipeline až po nasazení modelu do produkce. Pracuji samostatně, rád se učím a dovedu věci dotáhnout do konce.',
+    'about_p1'      => 'Jsem 21letý student oboru Umělá inteligence na FIT ČVUT v Praze. Vedle školy mám za sebou 2+ roky komerční praxe jako Software Engineer - pracoval jsem na real-time platformách, cloudové infrastruktuře v AWS a interních dashboardech.',
+    'about_p2'      => 'Aktuálně se přeorientuji na Data Engineering a aplikovaný Machine Learning. Baví mě stavět věci od základů - od sběru dat přes ETL pipeline až po nasazení modelu do produkce. Pracuji samostatně, rád se učím a dovedu věci dotáhnout do konce.',
     'about_li1'     => '21 let, Praha / Bratislava',
-    'about_li2'     => 'Bc. studium AI — FIT ČVUT',
+    'about_li2'     => 'Bc. studium AI - FIT ČVUT',
     'about_li3'     => '2+ roky komerční praxe',
     'about_li4'     => 'Otevřený stážím od června 2026',
 
@@ -94,7 +94,7 @@ $t = [
     'exp_datax_role'      => 'Software Engineer',
     'exp_datax_type'      => 'Full-time stáž',
     'exp_datax_period'    => 'Květen 2024 – Září 2024',
-    'exp_datax_li1'       => 'Kompletní design a implementace Front-Endu i Back-Endu (API logika) pro veřejný web a interní manažerský dashboard — projekt LinkTV',
+    'exp_datax_li1'       => 'Kompletní design a implementace Front-Endu i Back-Endu (API logika) pro veřejný web a interní manažerský dashboard - projekt LinkTV',
     'exp_datax_li2'       => 'Vývoj serverové logiky v Node.js, práce s databází MongoDB',
     'exp_datax_li3'       => 'Správa aplikační infrastruktury v cloudu AWS',
 
@@ -110,8 +110,8 @@ $t = [
     'exp_oss_role'        => 'Osobní projekty',
     'exp_oss_type'        => 'Průběžně',
     'exp_oss_period'      => '2023 – Současnost',
-    'exp_oss_li1'         => 'Car Price Assistant: Chrome rozšíření + FastAPI backend v Pythonu — zobrazuje férovost ceny přímo v inzerátech',
-    'exp_oss_li2'         => 'Chess Dashboard: Full-stack analytická aplikace (Next.js / TypeScript) — vizualizace herních dat z Chess.com a Lichess',
+    'exp_oss_li1'         => 'Car Price Assistant: Chrome rozšíření + FastAPI backend v Pythonu - zobrazuje férovost ceny přímo v inzerátech',
+    'exp_oss_li2'         => 'Chess Dashboard: Full-stack analytická aplikace (Next.js / TypeScript) - vizualizace herních dat z Chess.com a Lichess',
     'exp_oss_li3'         => 'Celý životní cyklus projektu: analýza → architektura → kód → publikace na GitHubu',
 
     // Stack section

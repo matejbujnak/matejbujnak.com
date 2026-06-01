@@ -49,10 +49,10 @@ $t = [
     // About section
     'about_tag'     => 'O mne',
     'about_title'   => 'Kto som',
-    'about_p1'      => 'Som 21-ročný študent odboru Umelá inteligencia na FIT ČVUT v Prahe. Popri škole mám za sebou 2+ roky komerčnej praxe ako Software Engineer — pracoval som na real-time platformách, cloudovej infraštruktúre v AWS a interných dashboardoch.',
-    'about_p2'      => 'Aktuálne sa preorientujem na Data Engineering a aplikovaný Machine Learning. Baví ma stavať veci od základov — od zberu dát cez ETL pipeline až po nasadenie modelu do produkcie. Pracujem samostatne, rád sa učím a viem veci dotiahnuť do konca.',
+    'about_p1'      => 'Som 21-ročný študent odboru Umelá inteligencia na FIT ČVUT v Prahe. Popri škole mám za sebou 2+ roky komerčnej praxe ako Software Engineer - pracoval som na real-time platformách, cloudovej infraštruktúre v AWS a interných dashboardoch.',
+    'about_p2'      => 'Aktuálne sa preorientujem na Data Engineering a aplikovaný Machine Learning. Baví ma stavať veci od základov - od zberu dát cez ETL pipeline až po nasadenie modelu do produkcie. Pracujem samostatne, rád sa učím a viem veci dotiahnuť do konca.',
     'about_li1'     => '21 rokov, Praha / Bratislava',
-    'about_li2'     => 'Bc. štúdium AI — FIT ČVUT',
+    'about_li2'     => 'Bc. štúdium AI - FIT ČVUT',
     'about_li3'     => '2+ roky komerčnej praxe',
     'about_li4'     => 'Otvorený stážiam od júna 2026',
 
@@ -94,7 +94,7 @@ $t = [
     'exp_datax_role'      => 'Software Engineer',
     'exp_datax_type'      => 'Full-time stáž',
     'exp_datax_period'    => 'Máj 2024 – September 2024',
-    'exp_datax_li1'       => 'Kompletný dizajn a implementácia Front-Endu aj Back-Endu (API logika) pre verejný web a interný manažérsky dashboard — projekt LinkTV',
+    'exp_datax_li1'       => 'Kompletný dizajn a implementácia Front-Endu aj Back-Endu (API logika) pre verejný web a interný manažérsky dashboard - projekt LinkTV',
     'exp_datax_li2'       => 'Vývoj serverovej logiky v Node.js, práca s databázou MongoDB',
     'exp_datax_li3'       => 'Správa aplikačnej infraštruktúry v cloude AWS',
 
@@ -110,8 +110,8 @@ $t = [
     'exp_oss_role'        => 'Osobné projekty',
     'exp_oss_type'        => 'Priebežne',
     'exp_oss_period'      => '2023 – Súčasnosť',
-    'exp_oss_li1'         => 'Car Price Assistant: Chrome rozšírenie + FastAPI backend v Pythone — zobrazuje férovosť ceny priamo v inzerátoch',
-    'exp_oss_li2'         => 'Chess Dashboard: Full-stack analytická aplikácia (Next.js / TypeScript) — vizualizácia herných dát z Chess.com a Lichess',
+    'exp_oss_li1'         => 'Car Price Assistant: Chrome rozšírenie + FastAPI backend v Pythone - zobrazuje férovosť ceny priamo v inzerátoch',
+    'exp_oss_li2'         => 'Chess Dashboard: Full-stack analytická aplikácia (Next.js / TypeScript) - vizualizácia herných dát z Chess.com a Lichess',
     'exp_oss_li3'         => 'Celý životný cyklus projektu: analýza → architektúra → kód → publikácia na GitHube',
 
     // Stack section

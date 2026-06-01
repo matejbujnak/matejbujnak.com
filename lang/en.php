@@ -49,10 +49,10 @@ $t = [
     // About section
     'about_tag'     => 'About me',
     'about_title'   => 'Who I am',
-    'about_p1'      => 'I\'m a 21-year-old Artificial Intelligence student at FIT CTU Prague. Alongside my studies, I have 2+ years of commercial experience as a Software Engineer — working on real-time platforms, AWS cloud infrastructure, and internal dashboards.',
-    'about_p2'      => 'I\'m currently transitioning into Data Engineering and applied Machine Learning. I enjoy building things from scratch — from data collection through ETL pipelines to deploying models in production. I work independently, learn fast, and ship.',
+    'about_p1'      => 'I\'m a 21-year-old Artificial Intelligence student at FIT CTU Prague. Alongside my studies, I have 2+ years of commercial experience as a Software Engineer - working on real-time platforms, AWS cloud infrastructure, and internal dashboards.',
+    'about_p2'      => 'I\'m currently transitioning into Data Engineering and applied Machine Learning. I enjoy building things from scratch - from data collection through ETL pipelines to deploying models in production. I work independently, learn fast, and ship.',
     'about_li1'     => '21 years old, Prague / Bratislava',
-    'about_li2'     => 'BSc. AI — FIT CTU Prague',
+    'about_li2'     => 'BSc. AI - FIT CTU Prague',
     'about_li3'     => '2+ years commercial experience',
     'about_li4'     => 'Open to internships from June 2026',
 
@@ -94,7 +94,7 @@ $t = [
     'exp_datax_role'      => 'Software Engineer',
     'exp_datax_type'      => 'Full-time internship',
     'exp_datax_period'    => 'May 2024 – September 2024',
-    'exp_datax_li1'       => 'Full design & implementation of Front-End and Back-End (API logic) for a public website and internal management dashboard — LinkTV project',
+    'exp_datax_li1'       => 'Full design & implementation of Front-End and Back-End (API logic) for a public website and internal management dashboard - LinkTV project',
     'exp_datax_li2'       => 'Server-side logic in Node.js, MongoDB database work',
     'exp_datax_li3'       => 'Application infrastructure management on AWS',
 
@@ -110,8 +110,8 @@ $t = [
     'exp_oss_role'        => 'Personal Projects',
     'exp_oss_type'        => 'Ongoing',
     'exp_oss_period'      => '2023 – Present',
-    'exp_oss_li1'         => 'Car Price Assistant: Chrome extension + FastAPI Python backend — shows price fairness directly inside car listings',
-    'exp_oss_li2'         => 'Chess Dashboard: Full-stack analytics app (Next.js / TypeScript) — visualises game data from Chess.com and Lichess',
+    'exp_oss_li1'         => 'Car Price Assistant: Chrome extension + FastAPI Python backend - shows price fairness directly inside car listings',
+    'exp_oss_li2'         => 'Chess Dashboard: Full-stack analytics app (Next.js / TypeScript) - visualises game data from Chess.com and Lichess',
     'exp_oss_li3'         => 'Full project lifecycle: problem analysis → architecture → clean code → published on GitHub',
 
     // Stack section
