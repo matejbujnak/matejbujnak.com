@@ -81,6 +81,7 @@ $t = [
     'proj_c_li2'        => 'Hyperparameter tuning & cross-validation',
     'proj_c_li3'        => 'Underpriced listing detection',
     'proj_stack_label'  => 'Stack:',
+    'proj_btn_demo'   => 'Try it live',
     'proj_btn_github'   => 'View source code on GitHub',
     'proj_btn_blog'     => 'Read the full data analysis on the blog',
 

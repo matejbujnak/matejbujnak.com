@@ -81,6 +81,7 @@ $t = [
     'proj_c_li2'        => 'Optimalizace hyperparametrů',
     'proj_c_li3'        => 'Detekce podhodnocených nabídek',
     'proj_stack_label'  => 'Stack:',
+    'proj_btn_demo'   => 'Vyzkoušet naživo',
     'proj_btn_github'   => 'Prohlédnout kód na GitHubu',
     'proj_btn_blog'     => 'Přečíst detailní analýzu na blogu',
 

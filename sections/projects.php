@@ -95,6 +95,14 @@
 
     <!-- CTA buttons -->
     <div class="flex flex-wrap gap-4">
+      <a href="https://car-prediction.projects.matejbujnak.com/" target="_blank" rel="noopener"
+         class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-sm transition-all hover:shadow-md"
+         style="background: linear-gradient(135deg, #0d6efd, #0dcaf0); color: white;">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+        </svg>
+        <?= htmlspecialchars($t['proj_btn_demo']) ?>
+      </a>
       <a href="https://github.com/matejbujnak" target="_blank" rel="noopener"
          class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-sm transition-all hover:shadow-md"
          style="background: linear-gradient(135deg, #0d6efd, #0dcaf0); color: white;">
